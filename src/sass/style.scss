@@ -1,0 +1,21 @@
+@import "libs/reboot.min";
+// @import "libs/animate";
+
+@import "base/fonts";
+@import "base/variables";
+* {
+  font-family: "BeVietnam", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  height: 100%;
+  //width: 90%;
+  max-width: 1400px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
